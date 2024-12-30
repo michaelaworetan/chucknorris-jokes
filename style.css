@@ -15,25 +15,25 @@
     overflow: hidden;
     padding: 10px 0px;
     width: 100%;
-}
-
-#content {
     display: flex;
     flex-direction: column;
 }
 
-#container p {
-    height: 50px;
-    line-height: 1.2em;
-    margin-top: 20px;
-    margin-bottom: 40px;
-    font-size: 1.8rem;
-    width: 100%;
-    padding: 0px 20px;
+
+.joke-container {
+    padding: 20px;
+    max-width: 80%;
+    margin: 10px auto;
+    text-align: center;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+    box-sizing: border-box;
 }
 
-#joke-container {
-    height: 200px;
+.joke-container p {
+    font-size: 1.6rem;
+    margin: 10px 0;
 }
 
 #loadJokeBtn {
@@ -44,7 +44,7 @@
     font-size: 1.6rem;
     padding: 10px;
     text-transform: uppercase;
-    margin: 35px auto;
+    margin: 20px auto;
     display: block;
 }
 
@@ -56,4 +56,6 @@
     bottom: 0;
     right: 0;
     left: 0;
+    margin: 10px auto;
+    display: block;
 }
