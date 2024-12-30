@@ -17,6 +17,11 @@
     width: 100%;
 }
 
+#content {
+    display: flex;
+    flex-direction: column;
+}
+
 #container p {
     height: 50px;
     line-height: 1.2em;
@@ -51,5 +56,4 @@
     bottom: 0;
     right: 0;
     left: 0;
-
 }
